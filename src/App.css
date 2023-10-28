@@ -1,0 +1,26 @@
+.traffic-light {
+  background-color: black;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px;
+}
+
+.traffic-light.light {
+  background-color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.traffic-light.light.go {
+  background-color: green;
+}
+
+.traffic-light.light.slow {
+  background-color: yellow;
+}
+
+.traffic-light.light.stop {
+  background-color: red;
+}
